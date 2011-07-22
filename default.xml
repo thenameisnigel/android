@@ -28,7 +28,7 @@
   <project path="development" name="CyanogenMod/android_development" remote="github" />
   <project path="device/common" name="device/common" />
   <project path="device/huawei/ascend" name="android_device_huawei_ascend" remote="icarus" />
-  <project path="device/lge/thunderc" name="CyanogenMod/android_device_lge_thunderc" remote="github" />
+  <project path="device/lge/thunderc" name="android_device_lge_thunderc" remote="icarus" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" remote="github" />
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" remote="github" />
   <project path="external/apache-http" name="platform/external/apache-http" />
