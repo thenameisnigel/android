@@ -14,7 +14,7 @@
   <default revision="gingerbread"
            remote="korg" />
 
-  <project path="build" name="CyanogenMod/android_build" remote="github">
+  <project path="build" name="BobZhome/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" />
@@ -26,7 +26,7 @@
   <project path="device/common" name="device/common" />
   <project path="device/huawei/ascend" name="android_device_huawei_ascend" remote="icarus" />
   <project path="device/lge/thunderc" name="BobZhome/android_device_lge_thunderc" remote="github" />
-  <project path="vendor/lge/thunderc" name="inferiorhumanorgans/vendor_lge_thunderc" remote="github" />
+  <project path="vendor/lge/thunderc" name="BobZhome/vendor_lge_thunderc" remote="github" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" remote="github" />
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" remote="github" />
   <project path="external/apache-http" name="platform/external/apache-http" />
