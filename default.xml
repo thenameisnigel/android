@@ -14,6 +14,9 @@
   <default revision="gingerbread"
            remote="korg" />
 
+  <project path="build" name="android_build" remote="icarus" />
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
