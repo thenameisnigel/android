@@ -14,7 +14,7 @@
   <default revision="gingerbread"
            remote="github" />
 
-  <project path="build" name="android_build" remote="icarus" />
+  <project path="build" name="BobZhome/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="CyanogenMod/android_bionic" />
@@ -24,9 +24,9 @@
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
-  <project path="device/huawei/ascend" name="android_device_huawei_ascend" remote="icarus" />
-  <project path="device/lge/thunderc" name="android_device_lge_thunderc" remote="icarus" />
-  <project path="vendor/lge/thunderc" name="vendor_lge_thunderc" remote="icarus" />
+  <project path="device/huawei/ascend" name="BobZhome/android_device_huawei_ascend" />
+  <project path="device/lge/thunderc" name="BobZhome/android_device_lge_thunderc" />
+  <project path="vendor/lge/thunderc" name="BobZhome/vendor_lge_thunderc" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
@@ -211,7 +211,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" />
 
-  <project path="vendor/cyanogen" name="android_vendor_cyanogen" remote="icarus" />
+  <project path="vendor/cyanogen" name="BobZhome/android_vendor_cyanogen" />
   <project path="vendor/qcom/opensource/webkit" name="CyanogenMod/android_vendor_qcom_opensource_webkit" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
@@ -220,6 +220,6 @@
   <project path="vendor/tmobile/themes/Cyanbread" name="CyanogenMod/android_vendor_tmobile_themes_Cyanbread" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
-  <project path="android" name="android" remote="icarus" />
+  <project path="android" name="android" />
 
 </manifest>
