@@ -23,7 +23,6 @@
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
-  <project path="device/advent/vega" name="CyanogenMod/android_device_advent_vega" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/huawei/ascend" name="android_device_huawei_ascend" remote="icarus" />
   <project path="device/lge/thunderc" name="android_device_lge_thunderc" remote="icarus" />
@@ -212,7 +211,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" />
 
-  <project path="vendor/cyanogen" name="CyanogenMod/android_vendor_cyanogen" />
+  <project path="vendor/cyanogen" name="android_vendor_cyanogen" remote="icarus" />
   <project path="vendor/qcom/opensource/webkit" name="CyanogenMod/android_vendor_qcom_opensource_webkit" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
