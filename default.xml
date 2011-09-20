@@ -11,10 +11,19 @@
   <remote  name="icarus" 
 	   fetch="git://github.com/BobZhome" />
 
+  <remote  name="github-synrgi"
+           fetch="git://github.com/synrgi/" />
+  
+  <remote  name="korg"
+           fetch="http://aosp.schiznik.net/"
+           review="review.source.android.com" />
+  <remote  name="cougar"
+           fetch="git://github.com/thekraven/" />
+
   <default revision="gingerbread"
            remote="github" />
 
-  <project path="build" name="BobZhome/android_build">
+  <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="CyanogenMod/android_bionic" />
@@ -24,7 +33,6 @@
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
-  <project path="device/huawei/ascend" name="BobZhome/android_device_huawei_ascend" />
   <project path="device/lge/thunderc" name="BobZhome/android_device_lge_thunderc" />
   <project path="vendor/lge/thunderc" name="BobZhome/vendor_lge_thunderc" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
@@ -128,6 +136,9 @@
   <project path="external/xmlwriter" name="CyanogenMod/android_external_xmlwriter" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
+  <project path="frameworks/base" name="inferiorhumanorgans/android_frameworks_base" />  
+  <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />  
+  <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
   <project path="hardware/gpsshim" name="CyanogenMod/android_hardware_gpsshim" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
@@ -173,7 +184,7 @@
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/Pacman" name="CyanogenMod/android_packages_apps_Pacman" />
-  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" />
+  <project path="packages/apps/Phone" name="drewwalton19216801/android_packages_apps_Phone" remote="github" />
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
@@ -220,6 +231,6 @@
   <project path="vendor/tmobile/themes/Cyanbread" name="CyanogenMod/android_vendor_tmobile_themes_Cyanbread" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
-  <project path="android" name="android" />
+  <project path="thekraven/android" name="android" />
 
 </manifest>
