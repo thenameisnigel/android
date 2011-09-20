@@ -14,7 +14,7 @@
   <remote  name="github-synrgi"
            fetch="git://github.com/synrgi/" />
   
-  <remote  name="korg"
+  <remote  name="korg2"
            fetch="http://aosp.schiznik.net/"
            review="review.source.android.com" />
   <remote  name="cougar"
