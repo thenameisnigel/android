@@ -34,8 +34,8 @@
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
-  <project path="device/lge/thunderc" name="BobZhome/android_device_lge_thunderc" remote="github" />
-  <project path="vendor/lge/thunderc" name="BobZhome/vendor_lge_thunderc" remote="github" />
+  <project path="device/lge/thunderc" name="inferiorhumanorgans/android_device_lge_thunderc" remote="github" />
+  <project path="vendor/lge/thunderc" name="inferiorhumanorgans/vendor_lge_thunderc" remote="github" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
