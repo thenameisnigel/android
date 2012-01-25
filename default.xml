@@ -20,6 +20,12 @@
            
   <remote  name="cougar"
            fetch="git://github.com/thekraven/" />
+           
+  <remote name="photon"
+     	   fetch="git://github.com/photon-dev-team/" />  
+
+  <remote name="cougar2"
+     	   fetch="git://github.com/thekraven2/" />             
 
   <default revision="gingerbread"
            remote="github" />
@@ -34,6 +40,9 @@
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
+  <project path="device/motorola/common" name="CyanogenMod/android_device_motorola_common" />
+  <project path="device/motorola/olympus" name="CyanogenMod/android_device_motorola_olympus" />
+  <project path="device/moto/Sunfire" name="thekraven2/Sunfire" revision="gbsunfire" />
   <project path="device/lge/thunderc" name="inferiorhumanorgans/android_device_lge_thunderc" remote="github" />
   <project path="vendor/lge/thunderc" name="inferiorhumanorgans/vendor_lge_thunderc" remote="github" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
@@ -222,7 +231,7 @@
   <project path="packages/wallpapers/MusicVisualization" name="CyanogenMod/android_packages_wallpapers_MusicVisualization" />
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
   <project path="sdk" name="CyanogenMod/android_sdk" revision="tools_r7" />
-  <project path="system/bluetooth" name="inferiorhumanorgans/android_system_bluetooth" remote="github" />
+  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="github" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
