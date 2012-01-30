@@ -42,7 +42,7 @@
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/motorola/common" name="CyanogenMod/android_device_motorola_common" />
   <project path="device/motorola/olympus" name="Atrix-Dev-Team/android_device_motorola_olympus" />
-  <project path="device/moto/sunfire" name="thekraven/sunfire-1" revision="gbsunfire" />
+  <project path="device/moto/sunfire" name="thekraven/sunfire-1" revision="gbsunfire" remote="cougar" />
   <project path="device/lge/thunderc" name="inferiorhumanorgans/android_device_lge_thunderc" remote="github" />
   <project path="vendor/lge/thunderc" name="inferiorhumanorgans/vendor_lge_thunderc" remote="github" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
