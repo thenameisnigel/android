@@ -45,7 +45,7 @@
   <project path="device/moto/sunfire" name="thekraven/sunfire-1" revision="gbsunfire" />
   <project path="device/lge/thunderc" name="inferiorhumanorgans/android_device_lge_thunderc" remote="github" />
   <project path="vendor/lge/thunderc" name="inferiorhumanorgans/vendor_lge_thunderc" remote="github" />
-  <project path="vendor/moto" name="photon-dev-team/proprietary_vendor_motorola" remote="photon" />
+  <project path="vendor/moto" name="photon-dev-team/proprietary_vendor_motorola" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
