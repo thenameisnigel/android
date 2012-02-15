@@ -45,7 +45,7 @@
   <project path="device/moto/sunfire" name="thekraven/sunfire-1" revision="gbsunfire" />
   <project path="device/lge/thunderc" name="thekraven/android_device_lge_thunderc" revision="gb3" />
   <project path="vendor/lge/thunderc" name="inferiorhumanorgans/vendor_lge_thunderc" remote="github" />
-  <project path="vendor/moto" name="photon-dev-team/proprietary_vendor_motorola" />
+  <project path="vendor/moto" name="thekraven/proprietary_vendor_motorola" revision="gbsunfire" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
@@ -147,7 +147,7 @@
   <project path="external/xmlwriter" name="CyanogenMod/android_external_xmlwriter" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />  
+  <project path="frameworks/base" name="thekraven/android_frameworks_base" revision="gb3" />  
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />  
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
