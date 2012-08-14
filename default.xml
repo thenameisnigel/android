@@ -179,7 +179,7 @@
   
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" />
   
-  <project path="vendor/cyanogen" name="thekraven/android_vendor_cyanogen" revision="gbls670" />
+  <project path="vendor/cyanogen" name="drewwalton19216801/android_vendor_cyanogen" revision="gbls670" />
   
   <project path="bootable/cannibal" name="drewwalton19216801/android_bootable_cannibal" remote="bitbucket" revision="master" />
 
