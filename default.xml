@@ -43,7 +43,7 @@
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
-  <project path="device/lge/thunderc" name="thekraven/android_device_lge_thunderc" revision="gb3" />
+  <project path="device/lge/thunderc" name="drewwalton19216801/android_device_lge_thunderc" revision="gb3" />
   <project path="vendor/lge/thunderc" name="thekraven/vendor_lge_thunderc" revision="gb3" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" />
