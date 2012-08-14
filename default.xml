@@ -44,6 +44,7 @@
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/lge/thunderc" name="drewwalton19216801/android_device_lge_thunderc" revision="gb3" />
+  <project path="device/amazon/blaze" name="IngCr3at1on/android_device_amazon_blaze" revision="gingerbread" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
