@@ -23,13 +23,10 @@ Once fully synced, you will be able to build Cannibal Open Touch for all support
 
 Currently supported devices:
 
-LG Optimus S
-
-LG Optimus V
-
-LG Optimus M
-
-Amazon Kindle Fire (support broken temporarily)
+	LG Optimus S
+	LG Optimus V
+	LG Optimus M
+	Amazon Kindle Fire (support broken temporarily)
 
 To build for LG Optimus S:
 
@@ -50,6 +47,7 @@ To build for LG Optimus M:
 	make -j4 recoveryimage
 
 To build for Amazon Kindle Fire (currently broken):
+
 	. build/envsetup.sh
 	lunch 4
 	make -j4 recoveryimage
