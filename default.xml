@@ -36,6 +36,7 @@
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/asus/grouper" name="ProjectOpenCannibal/android_device_asus_grouper" />
+  <project path="device/htc/inc" name="ProjectOpenCannibal/android_device_htc_inc" revision="jellybean" />
   <project path="docs/source.android.com" name="CyanogenMod/android_docs_source.android.com" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
