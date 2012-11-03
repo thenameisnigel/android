@@ -28,7 +28,7 @@
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
-  <project path="bootable/recovery" name="drewwalton19216801/cot-recovery-cwm6" remote="bitbucket" revision="release" />
+  <project path="bootable/recovery" name="drewwalton19216801/cot-recovery-cwm6" remote="bitbucket" revision="experimental" />
   <project path="bootable/recovery/gui" name="ProjectOpenCannibal/android_bootable_recovery_gui" revision="jellybean" />
   <project path="bootable/recovery/res" name="ProjectOpenCannibal/android_bootable_recovery_res" revision="master" />
   <project path="cts" name="CyanogenMod/android_cts" />
