@@ -33,8 +33,8 @@
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="ProjectOpenCannibal/cot-recovery-cwm6" remote="bitbucket" revision="kitkat"/>
-  <project path="bootable/recovery/gui" name="ProjectOpenCannibal/android_bootable_recovery_gui" revision="cotr-2.2-JB" />
-  <project path="bootable/recovery/res" name="ProjectOpenCannibal/android_bootable_recovery_res" revision="master" /> 
+  <!-- <project path="bootable/recovery/gui" name="ProjectOpenCannibal/android_bootable_recovery_gui" revision="cotr-2.2-JB" />
+  <project path="bootable/recovery/res" name="ProjectOpenCannibal/android_bootable_recovery_res" revision="master" /> -->
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.2_r1" groups="cts" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
