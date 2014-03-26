@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the COT/CM trees, use a command like this:
 
-    repo init -u https://github.com/drewwalton19216801/android.git -b gbsunfire2
+    repo init -u https://github.com/drewwalton19216801/android.git -b kitkat
 
 Then to sync up:
 
@@ -23,31 +23,12 @@ Once fully synced, you will be able to build Cannibal Open Touch for all support
 
 Currently supported devices:
 
-	LG Optimus S
-	LG Optimus V
-	LG Optimus M
-	Amazon Kindle Fire (support broken temporarily)
+	LG Optimus G (All variants)
+	Asus Nexus 7 (2012 WiFi)
+	Nexus 4
 
-To build for LG Optimus S:
-
-	. build/envsetup.sh
-	lunch 6
-	make -j4 recoveryimage
-
-To build for LG Optimus V:
+To build for your device:
 
 	. build/envsetup.sh
-	lunch 5
-	make -j4 recoveryimage
-
-To build for LG Optimus M:
-
-	. build/envsetup.sh
-	lunch 7
-	make -j4 recoveryimage
-
-To build for Amazon Kindle Fire (currently broken):
-
-	. build/envsetup.sh
-	lunch 4
-	make -j4 recoveryimage
+	lunch (choose your device)
+	mka recoveryimage
