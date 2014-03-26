@@ -1,7 +1,7 @@
-Cannibal Open Touch
+Cannibal Open Touch v3.0
 ===========
 
-Building Cannibal Open Touch
+Building Cannibal Open Touch v3.0
 ---------------
 
 To get started with Cannibal Open Touch, you'll need to get
@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the COT/CM trees, use a command like this:
 
-    repo init -u https://github.com/drewwalton19216801/android.git -b kitkat
+    repo init -u https://github.com/ProjectOpenCannibal/android.git -b kitkat
 
 Then to sync up:
 
